@@ -1,0 +1,436 @@
+@media only screen and (max-width: 00px) {}
+
+
+@media only screen and (max-width: 1440px) {
+    .login-box::before {
+        width: 200px;
+    }
+
+    .site-logo {
+        margin-bottom: 30px;
+    }
+
+    .login-input {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .login-right {
+        padding: 50px 0;
+    }
+    .recharge-detail-box {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .dashboard-padding {
+        padding: 20px;
+    }
+    .confirm-recharge {
+        margin: 80px auto 80px;
+        padding: 30px;
+    }
+    .confirm-payment {
+        margin-top: 40px;
+    }
+    .prepaid-recharge {
+        padding: 20px 20px 80px;
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .login-right {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .mobile-number-input {
+        max-width: 300px;
+    }
+
+    .dashboard-logo {
+        position: relative;
+    }
+    .ds-mobile-icon {
+        background: #3F6064;
+        box-shadow: 3px 0px 6px rgba(63, 96, 100, 0.2);
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        position: absolute;
+        top: -50px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        cursor: pointer;
+        right: -50px;
+        width: 50px;
+        height: 50px;
+        z-index: 1008;
+    }
+    .dashboard-left {
+        width: 234px;
+        transform: translateX(-234px);
+        overflow: visible;
+        border-radius: 0;
+    }
+    .dashboard-menu-top {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        max-height: 100vh;
+    }
+    .open .dashboard-left {
+        transform: translateX(0);
+    }
+    .open .ds-mobile-icon .fa-angle-right:before {
+        content: "\f104";
+    }
+    .dashboard-left .dashboard-menu-top ul li a {
+        font-size: 16px;
+        padding-left: 36px;
+        padding-right: 36px;
+        gap: 15px;
+        justify-content: flex-start;
+    }
+    .dashboard-left .dashboard-logo img.logo-img {
+        display: block;
+    }
+    .dashboard-left .dashboard-logo img.logo-icon {
+        display: none !important;
+    }
+    .dashboard-right {
+        max-width: 100% !important;
+        margin-left: 0;
+    }
+    .datepicker-form form {
+        gap: 20px;
+    }
+    .datepicker-form .input-group .input-box {
+        width: 240px;
+    }
+    .sub-title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .login-main {
+        background: #f0f5f6;
+    }
+
+    .login-box .col-lg-5 {
+        display: none;
+    }
+    .dashboard-top-header {
+        padding-bottom: 20px;
+    }
+    .dashboard-top-header .main-title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .confirm-recharge {
+        padding: 20px;
+    }
+    .confirm-recharge-title, .select-payment-title, .payment-successful-title {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    .confirm-info ul {
+        padding: 0;
+    }
+    .transaction-history-top {
+        margin-bottom: 24px;
+        flex-wrap: wrap;
+    }
+    .transaction-history-top .title {
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+    .transaction-history-tabel table thead td {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 34px;
+        padding: 8px;
+    }
+    .transaction-history-tabel table tbody tr td {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 12px 12px;
+    }
+
+    .sub-title {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .recharge-info .recharge-item span {
+        width: 60px;
+        height: 60px;
+    }
+    .recharge-info .recharge-item span img {
+        width: 50%;
+    }
+    .recharge-info .recharge-item strong {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .recharge-detail-box {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .recharge-detail-item {
+        max-width: 48%;
+        width: 100%;
+    }
+    .recharge-detail-check-plans {
+        max-width: 48%;
+    }
+    .recharge-detail-go {
+        max-width: 48%;
+        width: 100%;
+    }
+    .vector-img-1 {
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .btn {
+        padding: 10px 30px;
+        height: 46px;
+    }
+    .form-control {
+        height: 46px;
+        font-size: 14px;
+    }
+    .site-logo img {
+        max-width: 150px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .login-box::before {
+        width: 120px;
+    }
+
+    .login-text-top h4 {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .login-text-top p {
+        font-size: 16px;
+        max-width: 100%;
+        margin-bottom: 26px;
+        text-align: center;
+    }
+
+    .login-input label {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .mobile-number-input {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .login-input {
+        margin-bottom: 30px;
+    }
+
+    .login-input .btn {
+        width: 100%;
+    }
+    .mobile-number-input .form-control {
+        padding-left: 54px;
+    }
+    .country-icon {
+        max-width: 30px;
+    }
+    .opt-div .opt-title {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .opt-input input[type=number] {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .dashboard-top-header {
+        flex-wrap: wrap;
+    }
+    .dashboard-top-header .main-title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .user-info {
+        align-items:flex-start;
+    }
+    .dropdown.user-dropdown {
+        margin-top: 10px;
+    }
+    .user-info-con {
+        text-align: center;
+    }
+    .user-info-con span {
+        margin-left: 0;
+        display: none;
+        text-align: center;
+    }
+    .ds-mobile-icon {
+        top: -50px;
+        right: -40px;
+        width: 40px;
+        height: 40px;
+    }
+    .dashboard-top-header {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .confirm-info ul li span, .confirm-info ul li strong {
+        font-size: 16px;
+        line-height: 24px;
+        max-width: 100%;
+        width: 100%;
+    }
+    .confirm-info ul li {
+        flex-wrap: wrap;
+    }
+    .confirm-info ul li span {
+        margin-bottom: 10px;
+    }
+    .confirm-recharge-title, .select-payment-title, .payment-successful-title {
+        margin-bottom: 20px;
+    }
+    .confirm-recharge {
+        border-radius: 10px;
+    }
+    .confirm-info-total {
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .cashe-footer p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+    }
+
+    .payment-successful {
+        padding: 20px;
+        margin: 60px auto 60px;
+        border-radius: 10px;
+    }
+    .payment-successful-box {
+        padding: 20px;
+    }
+    .payment-successful-top span {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 22px;
+        margin-bottom: 4px;
+    }
+    .payment-successful-top img:first-child {
+        max-width: 50px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .payment-successful-top strong {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .pay-success-inner-box ul li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 28px;
+        flex-wrap: wrap;
+    }
+    .pay-success-inner-box ul li span {
+        max-width: 100%;
+    }
+    .select-payment {
+        margin: 60px auto 60px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .amount-pay {
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .amount-pay-item {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+        flex-wrap: wrap;
+    }
+    .pay-from .title {
+        margin-bottom: 14px;
+    }
+    .pay-from-box ul li .form-check .form-check-input {
+        margin-left: 10px;
+        width: 18px;
+        height: 18px;
+    }
+    .pay-from-box ul li .form-check .form-check-label {
+        padding: 10px 10px 10px 30px;
+    }
+    .pay-from-submit {
+        margin-top: 30px;
+    }
+    .transaction-history {
+        margin-top: 40px;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    .datepicker-form .input-group {
+        flex-wrap: wrap;
+    }
+    .datepicker-form form {
+        flex-wrap: wrap;
+    }
+    .transaction-history-tabel table tbody tr td,
+    .transaction-history-tabel table thead td {
+        white-space: nowrap;
+    }
+    .recharge-info ul {
+        gap: 40px;
+        margin-bottom: 20px;
+    }
+    .vector-img-1,.vector-img-2 {
+        display: none;
+    }
+    .recharge-detail-item {
+        max-width: 100%;
+        width: 100%;
+    }
+    .recharge-detail-check-plans {
+        max-width: 100%;
+    }
+    .recharge-detail-go {
+        max-width: 100%;
+    }
+    .recharge-detail-check-plans .btn {
+        width: 100%;
+    }
+    .recharge-detail-go .btn {
+        width: 100%;
+    }
+    .recharge-details .recharge-detail-title {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
